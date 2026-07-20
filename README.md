@@ -10,8 +10,8 @@ This project features an interactive **Sales Dashboard** developed in **Power BI
 ---
 
 ## 📸 Dashboard Preview
-![Sales Dashboard Overview](screenshot_1.png)
-![Sales Dashboard Overview](screenshot_2.png)
+![Sales Dashboard Overview](Screenshot_1.png)
+![Sales Dashboard Overview](Screenshot_2.png)
 
 ---
 
