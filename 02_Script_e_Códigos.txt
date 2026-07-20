@@ -1,0 +1,23 @@
+Total Vendas	SUM('Sample - Superstore'[Sales]) / 100
+Total Lucro	SUM('Sample - Superstore'[Profit]) / 10000
+
+Quantidade Pedidos	DISTINCTCOUNT('Sample - Superstore'[Order ID])
+
+Ticket Médio	DIVIDE(
+    [Total Vendas],
+    [Quantidade Pedidos]
+)
+
+Vendas AA	CALCULATE(
+    [Total Vendas],
+    SAMEPERIODLASTYEAR('Sample - Superstore'[Order Date].[Date])
+)
+Variação YoY (R$)	[Total Vendas] - [Vendas AA]
+
+
+Variação YoY (%)	DIVIDE(
+    [Variação YoY (R$)], 
+    [Vendas AA], 
+    0
+)
+
