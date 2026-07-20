@@ -38,4 +38,4 @@ This project features an interactive **Sales Dashboard** developed in **Power BI
 
 ## 👨‍💻 Author
 **Wilton Aguiar**  
-[LinkedIn](https://www.linkedin.com/in/wilton-aguiar) | [GitHub](https://github.com/WiltonAguilar)
+[LinkedIn](https://www.linkedin.com/in/wilton-aguiar) | [GitHub](https://github.com/WiltonAguiar)
